@@ -1,0 +1,61 @@
+/* CSS Reset */
+* {
+		padding:0;
+		margin: 0;
+}
+
+body {
+	width: 600px;
+	margin: auto;	
+}
+
+header {
+	border-bottom: 1px solid lightgrey;
+	text-align: center;
+}
+
+header img {
+	width: 250px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style: none;
+}
+
+article img{
+	margin-top:50px;
+	margin-bottom:30px;
+}
+
+h2{
+	margin-bottom: 8px;
+}
+
+li{
+	margin-bottom: 10px;
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+li:first-child {
+	padding-top: 0px;
+}
+
+li:last-child{
+	border:none;
+}
+
+p{
+	color:dimgrey;
+}
+
+div.nav {
+	text-align: right;
+}
+
+div.nav li{
+	display:inline;
+}
