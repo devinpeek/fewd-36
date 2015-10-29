@@ -1,0 +1,55 @@
+/* Layout */
+/* ---------------------------------- */
+* {
+		padding:0;
+		margin: 0;
+}
+
+h1{	color:white;
+	font-family: "Lato", sans-serif;
+	margin-bottom: 10px;
+
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 10px auto;
+	background: blue;
+	width: 400px;
+	height: 300px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	border: solid 10px lightgrey;
+	border-radius: 200px;
+
+}
+
+#button{
+	width: 100px;
+	margin: 10px auto;
+}
+
+.fahr{
+	padding-top: 50px;
+	padding-bottom:50px;
+}
+
+.celcius {
+	padding-top: 50px;
+}
+
+.fahr_degrees{
+	width: 100px;
+	height: 30px;
+	border-radius:10px;
+	text-align: center;
+}
+
+.celcius_degrees{
+	width: 100px;
+	height: 30px;
+	border-radius:10px;
+	text-align: center;
+}
