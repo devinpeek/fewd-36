@@ -11,12 +11,17 @@ h1{	color:white;
 
 }
 
+body{
+	background-image: url("http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg");
+	background-size: cover;
+}
+
 section {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	margin: 10px auto;
-	background: blue;
+	background: #224354;
 	width: 400px;
 	height: 300px;
 	padding-bottom: 50px;
@@ -26,13 +31,18 @@ section {
 
 }
 
-#button{
+#button_1{
+	width: 100px;
+	margin: 10px auto;
+}
+
+#button_2{
 	width: 100px;
 	margin: 10px auto;
 }
 
 .fahr{
-	padding-top: 50px;
+	padding-top: 40px;
 	padding-bottom:50px;
 }
 

@@ -6,8 +6,8 @@ var button=document.getElementById("button");
 	
 // // Events
 // // -------------------------------------
-button.addEventListener("click", calcFtoC);
-button.addEventListener("click", calcCtoF);
+button_1.addEventListener("click", calcFtoC);
+button_2.addEventListener("click", calcCtoF);
 
 
 // // Event handler functions
