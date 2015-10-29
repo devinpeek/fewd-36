@@ -21,8 +21,9 @@ function calcFtoC(event){
 function calcCtoF(event){
 	var tempC_result = document.getElementById("tempC").value;
 	var tempF_result = tempC_result * 9/5 + 32;
-	tempF.value = tempF_result;
+	tempF.value = Math.round(tempF_result);
 }
+
 
 
 
