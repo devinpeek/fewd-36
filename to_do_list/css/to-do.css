@@ -1,0 +1,53 @@
+body{
+	font-family: "raleway";
+}
+
+.header{
+	background-color: #78C56B;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 400;
+}
+
+.container{
+	margin: 20px auto;
+	width: 500px;
+	background-color: lightgrey;
+	padding:20px;
+	border: solid 1px darkgrey;
+	border-radius: 5px;
+	font-family: "raleway";
+}
+
+form {
+	display: inline;
+	height: 30px;
+}
+
+.date,
+.task, 
+button{
+	height: 40px;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+button {
+	width: 100px;
+	background-color: #84A2E7;
+}
+
+li {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+span {
+	margin-left: 30px;
+}
+
+input:checked + span{
+	text-decoration: line-through;
+	
+}
