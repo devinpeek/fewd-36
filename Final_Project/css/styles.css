@@ -37,7 +37,7 @@ p{
   position:relative;
   bottom:0;
   left:0;
-  margin-top: 194px;
+  margin-top: 260px;
 }
 
 .social img{
@@ -101,13 +101,12 @@ p{
 }
 
 .center_column_bio{
-  width:495px;
-  margin:80px 10px 0 214px;
+  width:416px;
+  margin:80px 10px 0 240px;
 }
 
 .center_column_bio img{
-  width:495px;
-  height:337px;
+  width:410px;
   margin:0 auto;
 }
 
@@ -493,7 +492,9 @@ footer{
 
 .footer_img{
   width:100%;
-  
+  min-height: 300px;
+  object-fit: cover;
+  object-position: 10% 50%;
 }
 
 .bio{
@@ -524,6 +525,21 @@ footer{
   background-image:url("images/highlight_test.jpg")
 }
 
+'
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
 /*.fa-bars:before {
     display: inline;
     position: fixed;
